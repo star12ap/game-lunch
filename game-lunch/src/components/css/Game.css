@@ -1,0 +1,26 @@
+.game {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.locate {
+
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50% 20% / 10% 40%;
+}
+
+.panel {
+  
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 3vmin);
+  color: white;
+}
+
